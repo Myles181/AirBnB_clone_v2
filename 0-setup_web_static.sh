@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# A bash script that sets up web servers for deployment
 
 #install nginx if it's not already installed
 if [! -d /etc/nginx ]; then
