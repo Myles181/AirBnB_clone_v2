@@ -30,6 +30,7 @@ def c(text):
     return "C {}".format(text.replace('_', ' '))
 
 @app.route('/python')
+@app.route('/python/')
 @app.route('/python/<text>')
 def python(text="is_cool"):
     """python page
